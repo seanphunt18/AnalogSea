@@ -1,0 +1,84 @@
+* {
+	font-family: sans-serif;
+}
+
+body {
+	height: 100vh;
+	width: 100%;
+	background-color: #6799ff;
+}
+
+.logo {
+	text-align: center;
+}
+
+.logo img {
+	height: 35px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.form {
+	width: 400px;
+	background-color: white;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+}
+
+.form h1 {
+	text-align: center;
+	font-weight: lighter;
+	color: gray;
+	padding-top: 40px;
+}
+
+.form input {
+	border: 2px solid lightgray;
+	
+}
+
+.form label {
+	font-weight: bolder;
+}
+
+.form input, button {
+	display: block;
+	width: 320px;
+	height: 55px;
+	border-radius: 5px;
+	padding: 15px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.form button {
+	background-color: lightgreen;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	font-size: 1.5em;
+	vertical-align: middle;
+	border: none;
+	cursor: pointer;
+}
+
+.forgot-pass {
+	text-align: center;
+}
+
+.forgot-pass a {
+	color: gray;
+	font-size: 12px;
+}
+
+.login a, p {
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
